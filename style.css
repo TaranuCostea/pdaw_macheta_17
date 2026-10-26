@@ -308,4 +308,190 @@ h1,h2,h3 {
   color: #64748B;
 }
 
-/* avantage */
+/* avantaje */
+/* produse*/
+.products {
+  padding: 70px 40px;
+  background: #FBF6F3;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.product {
+  display: flex;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.product:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(43, 15, 26, 0.12);
+}
+.product-image {
+  position: relative;
+  flex-shrink: 0;
+  width: 180px;
+}
+.product-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 215px;
+  object-fit: cover;
+}
+.tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: #c8902e;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.tag-sale {
+  background: #b3402e;
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+}
+.stars {
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #e8a317;
+}
+.product-info h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.product-info p {
+  font-size: 14px;
+  color: #8a7a80;
+}
+.product-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 16px;
+}
+.price {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #7a1f3d;
+}
+.old-price {
+  display: block;
+  font-family: 'Mulish', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #a09096;
+}
+.order {
+  font-size: 14px;
+  font-weight: 700;
+  color: #7a1f3d;
+  transition: color 0.3s;
+}
+.order:hover {
+  color: #c8902e;
+}
+/* produse*/
+/* recenzii */
+.testimonials {
+  padding: 70px 40px;
+  background: #ffffff;
+}
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.testimonial-body {
+  flex: 1;
+  text-align: center;
+}
+.quote-mark {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  line-height: 0.8;
+  color: #7a1f3d;
+}
+.testimonial blockquote p {
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #2b0f1a;
+}
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: left;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #7a1f3d;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.author strong {
+  display: block;
+  font-size: 15px;
+}
+.author span {
+  font-size: 13px;
+  color: #8a7a80;
+}
+.author .avatar {
+  font-size: 14px;
+  color: #ffffff;
+}
+.arrow {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #eadfd8;
+  border-radius: 50%;
+  background: #ffffff;
+  font-size: 22px;
+  color: #4a3a40;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+.arrow:hover {
+  border-color: #7a1f3d;
+  background: #7a1f3d;
+  color: #ffffff;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e3d3d9;
+}
+.dot.active {
+  background: #7a1f3d;
+}
