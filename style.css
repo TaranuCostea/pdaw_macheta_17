@@ -81,3 +81,84 @@ h1,h2,h3 {
   color: #64748B;
 }
 /* Stiluri generale */
+
+/* bara de sus */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background: #2A0E17;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+
+/* bara de sus */
+/* hedaer */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 0 40px;
+  background: #ffffff;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.search {
+  flex: 1;
+}
+.search input {
+  width: 240px;
+  padding: 11px 16px;
+  border: 1px solid #eadfd8;
+  border-radius: 8px;
+  background: #FBF6F3;
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+}
+.header-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.header-right .btn {
+  padding: 12px 22px;
+}
+.nav {
+  border-top: 1px solid #eadfd8;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.nav a {
+  position: relative;
+  display: block;
+  padding: 14px 0;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+.nav a:hover {
+  color: #7F1D3A;
+}
+.nav a.active {
+  font-weight: 700;
+  color: #7F1D3A;
+}
+.nav a.active::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  margin-left: -2px;
+  border-radius: 50%;
+  background: #7F1D3A;
+}
+/* header */
