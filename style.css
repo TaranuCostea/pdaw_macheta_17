@@ -570,3 +570,57 @@ h1,h2,h3 {
   color: #ffffff;
 }
 /* ==========  OFERTĂ: PACHETE ========== */
+.newsletter {
+  padding: 70px 40px;
+  background: #F8E3EA;
+}
+.newsletter-box {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  border-radius: 16px;
+  background: #ffffff;
+  text-align: center;
+}
+.newsletter-box h2 {
+  margin-bottom: 8px;
+  font-size: 30px;
+}
+.newsletter-box > p {
+  margin-bottom: 24px;
+  color: #8a7a80;
+}
+.newsletter-icon {
+  position: absolute;
+  top: -30px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #c8902e;
+  font-size: 26px;
+}
+.newsletter-form {
+  display: flex;
+  max-width: 520px;
+  margin: 0 auto;
+}
+.newsletter-form input {
+  flex: 1;
+  padding: 14px 18px;
+  border: 1px solid #eadfd8;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 15px;
+}
+.newsletter-form .btn {
+  border: none;
+  border-radius: 0 8px 8px 0;
+  font-family: 'Mulish', sans-serif;
+  cursor: pointer;
+}
