@@ -682,3 +682,22 @@ h1,h2,h3 {
   font-size: 13px;
   color: #a08c93;
 }
+.chat-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 200;
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 50%;
+  background: #c8902e;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(43, 15, 26, 0.3);
+  transition: transform 0.3s, background 0.3s;
+}
+.chat-button:hover {
+  background: #b07a1f;
+  transform: scale(1.1);
+}
